@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+# dataset link: https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download
 model = joblib.load('fraud_detection_model.pkl')
 
 st.title('Fraud Detection Prediction Application')
